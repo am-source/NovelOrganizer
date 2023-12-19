@@ -2,8 +2,10 @@ import Vue from 'vue';
 import App from './App.vue';
 import routes from './routes';
 import VueRouter from 'vue-router';
+import Buefy from 'buefy'
 
 Vue.use(VueRouter);
+Vue.use(Buefy)
 
 Vue.config.productionTip = false;
 
