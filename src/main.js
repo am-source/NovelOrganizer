@@ -8,7 +8,9 @@ Vue.use(VueRouter);
 Vue.config.productionTip = false;
 
 const router = new VueRouter({
-  routes
+  routes,
+  // to remove '/#' from url path, production server needs to be configured to make this work
+  mode: 'history'
 });
 
 
