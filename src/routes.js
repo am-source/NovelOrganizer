@@ -1,5 +1,7 @@
-import HelloWorld from './components/HelloWorld'
+import HomeView from './components/views/HomeView'
+import NovelListView from './components/views/NovelListView'
 
 export default [
-    { path: '/', component: HelloWorld},
+    { path: '/', component: HomeView},
+    { path: '/novels', component: NovelListView},
 ]
